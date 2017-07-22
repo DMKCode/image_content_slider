@@ -1,1 +1,1 @@
-#Image Content Slider in Pure CSS3
+# Image Content Slider in Pure CSS3
