@@ -1,0 +1,39 @@
+.slider-wrapper ul,
+.slider-wrapper li,
+.slider-wrapper div,
+.slider-wrapper img,
+.slider-wrapper a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+}
+
+.slider-wrapper {
+    width: 508px;
+    overflow: hidden;
+}
+
+ul.s-thumbs li {
+    float: left;
+}
+
+ul.s-slides,
+ul.s-slides li,
+ul.s-slides a,
+ul.s-slides img {
+    width: 500px;
+    height: 350px;
+    position: relative;
+}
+
+ul.s-slides {
+    overflow: hidden;
+    clear: both;
+}
+
+ul.s-slides li {
+    position: absolute;
+    z-index: 50;
+}
