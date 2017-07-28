@@ -227,7 +227,7 @@ ul.s-slides li.zoomOut:target {
 
 @-webkit-keyframes rotate {
     0% { -webkit-transform: rotate(-360deg) scale(0.1); }
-    0% { -webkit-transform: none; }
+    100% { -webkit-transform: none; }
 }
 
 ul.s-slides li.rotate:target {
