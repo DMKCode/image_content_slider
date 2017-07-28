@@ -151,7 +151,7 @@ ul.s-slides li {
     100% { left: 0; }
 }
 
-ul.slides li.slideLeft:target {
+ul.s-slides li.slideLeft:target {
     z-index: 100;
 
     -webkit-animation-name: slideLeft;
@@ -164,7 +164,7 @@ ul.slides li.slideLeft:target {
     100% { left: 0; }
 }
 
-ul.slides li.slideRight:target {
+ul.s-slides li.slideRight:target {
     z-index: 100;
 
     -webkit-animation-name: slideRight;
