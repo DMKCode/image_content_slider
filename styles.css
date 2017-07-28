@@ -253,3 +253,16 @@ ul.s-slides li:not(:target) {
 ul.s-slides li.first {
     z-index: 60;
 }
+
+@-webkit-keyframes load {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+ 
+.slider-wrapper {
+    -webkit-animation-name: load;
+    -webkit-animation-duration: 2s;
+    -webkit-transition-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+}
