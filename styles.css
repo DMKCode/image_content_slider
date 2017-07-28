@@ -238,3 +238,14 @@ ul.s-slides li.rotate:target {
     -webkit-animation-duration: 1s;
     -webkit-animation-iteration-count: 1;
 }
+
+@-webkit-keyframes notTarget {
+    0% { z-index: 75; }
+    100% { z-index: 75; }
+}
+ 
+ul.s-slides li:not(:target) {
+    -webkit-animation-name: notTarget;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+}
