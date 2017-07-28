@@ -249,3 +249,7 @@ ul.s-slides li:not(:target) {
     -webkit-animation-duration: 1s;
     -webkit-animation-iteration-count: 1;
 }
+
+ul.s-slides li.first {
+    z-index: 60;
+}
