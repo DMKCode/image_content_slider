@@ -197,3 +197,44 @@ ul.s-slides li.slideBottom:target {
     -webkit-animation-duration: 1s;
     -webkit-animation-iteration-count: 1;
 }
+
+@-webkit-keyframes zoomIn {
+    0% { -webkit-transform: scale(0.1); }
+    100% {  -webkit-transform: none; }
+}
+
+ul.s-slides li.zoomIn:target {
+    z-index: 100;
+    top: 4px;
+    
+    -webkit-animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes zoomOut {
+    0% { -webkit-transform: scale(2); }
+    100% {  -webkit-transform: none; }
+}
+
+ul.s-slides li.zoomOut:target {
+    z-index: 100;
+    
+    -webkit-animation-name: zoomOut;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes rotate {
+    0% { -webkit-transform: rotate(-360deg) scale(0.1); }
+    0% { -webkit-transform: none; }
+}
+
+ul.s-slides li.rotate:target {
+    z-index: 100;
+    top: 4px;
+ 
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+}
